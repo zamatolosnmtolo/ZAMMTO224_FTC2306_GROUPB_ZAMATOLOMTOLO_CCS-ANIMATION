@@ -10,8 +10,10 @@
 
 .image-animation {
   transition: transform 0.5s;
+  filter: grayscale(0%); /* Initially set to color */
 }
 
 .image-animation:hover {
   transform: rotate(360deg);
+  filter: grayscale(100%); /* Change to black and white on hover */
 }
